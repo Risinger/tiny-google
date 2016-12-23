@@ -5,8 +5,8 @@ This project was written in a single week (and finals week, at that). Please exc
 
 ## Description
 This is the final project for CS1699: Cloud Computing. 
-It reads in text files and creates and inverted index using either MapReduce or Spark. 
-The UI then enables the user to select between the inverted indexes and retrieve results for specific query terms. 
+It reads in text files and creates an inverted index using either MapReduce or Spark. 
+The UI then enables the user to select between the inverted indexes and retrieve ranked results for specific query terms. 
 
 ## Dependencies
-TinyGoogle requires hadoop and spark installations. The scala (spark) portion also uses sbt to build. 
+TinyGoogle requires hadoop and spark installations, though they do not have to be local. The scala (spark) portion also uses sbt to build. 
