@@ -1,0 +1,6 @@
+*.sublime*
+target/*
+/spark/project/*
+*.class
+*.jar
+
